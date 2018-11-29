@@ -1,0 +1,49 @@
+.FullDetailsCard {
+    margin: 0 auto;
+    background-color: #2d303a;
+    color: #fff;
+    animation: fadein 0.3s ease-in-out 0s;
+    margin-top: 50px;
+    border-radius: 6px;
+    padding: 40px;
+}
+
+.FullDetailsCard h4 {
+    margin-bottom: 10px;
+}
+
+
+.FullDetailsCard img {
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 4px;
+}
+
+.FullDetailsCard .description {
+    margin-bottom: 20px;
+}
+
+.FullDetailsCard ul {
+    margin-bottom: 20px;
+}
+
+.FullDetailsCard video {
+    width: 100%;
+}
+
+@keyframes fadein {
+    from { opacity: 0;}
+    to { opacity: 1;}
+}
+
+@media screen and (min-width: 1400px) {
+    .FullDetailsCard {
+      max-width: 900px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .FullDetailsCard {
+        padding-top: 40px;
+    }
+}

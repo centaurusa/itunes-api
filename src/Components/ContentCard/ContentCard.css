@@ -1,0 +1,31 @@
+.ContentCard {
+    width: 188px;
+    height: 360px;
+    background: #cbd9ef;
+    margin: 20px;
+    cursor: pointer;
+    transition: transform .2s ease-in-out;
+    border-radius: 6px;
+    box-sizing: border-box;
+    padding: 10px 20px 30px 20px;
+}
+
+.ContentCard:hover {
+    transform: scale(1.1);
+}
+
+.ContentCard img {
+    margin-bottom: 10px;
+}
+
+.ContentCard h5 {
+    margin-bottom: 10px;
+}
+
+
+
+.ContentCard .title {
+    height: 18px;
+    line-height: 1.1;
+    overflow: hidden;
+}

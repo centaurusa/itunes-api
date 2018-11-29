@@ -1,0 +1,49 @@
+header {
+    height: 80px;
+    padding: 0 40px;
+    background-color: #2d303a;
+    color: #f06c64;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 35px;
+    margin-right: 40px;
+}
+
+header form input[type=text] {
+    border: none;
+    height: 40px;
+    width: 400px;
+    border-radius: 6px;
+    margin-right: 40px;
+    padding: 20px;
+}
+header button {
+    border: none;
+    width: 210px;
+    height: 40px;;
+    background-color: #8ad188;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color .3s ease-in-out;
+    font-size: 18px;
+    margin-right: 20px;
+    color: #fff;
+}
+header button:hover {
+    background-color: #3b6d3a;
+}
+
+header form button[type=submit] {
+    background-color: #ff7c35;
+    width: 110px;
+}
+
+header form button[type=submit]:hover {
+    background-color: #c74906;
+}
+

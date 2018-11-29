@@ -1,0 +1,39 @@
+html {
+  height: 100vh;
+}
+App {
+  text-align: center;
+  padding-bottom: 60px;
+  height: 100vh;
+  font-family: 'Helvetica-light';
+}
+
+h1,h2,h3,h4,h5,h6,p, ul {
+  margin: 0;
+  padding: 0;
+}
+ul,li {
+  list-style: none;
+}
+
+.QueryList {
+  position: absolute;
+  padding: 20px;
+  background-color: #424653;
+  color: #fff;
+  transition: all .3s ease-in;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+}
+
+a:hover, a:focus {
+  text-decoration: none;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
